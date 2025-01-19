@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Utilizador\\source\\repos\\Forms1 - PSI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79E3F2D5-7BBE-46A7-8B49-B36A5A55A9E4}|Forms1 - PSI\\Forms1 - PSI.csproj|c:\\users\\utilizador\\source\\repos\\forms1 - psi\\forms1 - psi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79E3F2D5-7BBE-46A7-8B49-B36A5A55A9E4}|Forms1 - PSI\\Forms1 - PSI.csproj|solutionrelative:forms1 - psi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E3F2D5-7BBE-46A7-8B49-B36A5A55A9E4}|Forms1 - PSI\\Forms1 - PSI.csproj|C:\\Users\\Utilizador\\source\\repos\\Forms1 - PSI\\forms1 - psi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E3F2D5-7BBE-46A7-8B49-B36A5A55A9E4}|Forms1 - PSI\\Forms1 - PSI.csproj|solutionrelative:forms1 - psi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Utilizador\\source\\repos\\Forms1 - PSI\\Forms1 - PSI\\Form1.cs",
+              "RelativeDocumentMoniker": "Forms1 - PSI\\Form1.cs",
+              "ToolTip": "C:\\Users\\Utilizador\\source\\repos\\Forms1 - PSI\\Forms1 - PSI\\Form1.cs",
+              "RelativeToolTip": "Forms1 - PSI\\Form1.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAApwB4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T20:36:57.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Utilizador\\source\\repos\\Forms1 - PSI\\Forms1 - PSI\\Form1.cs",
+              "RelativeDocumentMoniker": "Forms1 - PSI\\Form1.cs",
+              "ToolTip": "C:\\Users\\Utilizador\\source\\repos\\Forms1 - PSI\\Forms1 - PSI\\Form1.cs [Design]",
+              "RelativeToolTip": "Forms1 - PSI\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T19:59:02.08Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

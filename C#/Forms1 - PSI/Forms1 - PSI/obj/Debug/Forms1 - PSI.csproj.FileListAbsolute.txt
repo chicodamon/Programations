@@ -1,0 +1,10 @@
+C:\Users\Utilizador\source\repos\Forms1 - PSI\Forms1 - PSI\bin\Debug\Forms1 - PSI.exe.config
+C:\Users\Utilizador\source\repos\Forms1 - PSI\Forms1 - PSI\bin\Debug\Forms1 - PSI.exe
+C:\Users\Utilizador\source\repos\Forms1 - PSI\Forms1 - PSI\bin\Debug\Forms1 - PSI.pdb
+C:\Users\Utilizador\source\repos\Forms1 - PSI\Forms1 - PSI\obj\Debug\Forms1 - PSI.csproj.AssemblyReference.cache
+C:\Users\Utilizador\source\repos\Forms1 - PSI\Forms1 - PSI\obj\Debug\Forms1___PSI.janela.resources
+C:\Users\Utilizador\source\repos\Forms1 - PSI\Forms1 - PSI\obj\Debug\Forms1___PSI.Properties.Resources.resources
+C:\Users\Utilizador\source\repos\Forms1 - PSI\Forms1 - PSI\obj\Debug\Forms1 - PSI.csproj.GenerateResource.cache
+C:\Users\Utilizador\source\repos\Forms1 - PSI\Forms1 - PSI\obj\Debug\Forms1 - PSI.csproj.CoreCompileInputs.cache
+C:\Users\Utilizador\source\repos\Forms1 - PSI\Forms1 - PSI\obj\Debug\Forms1 - PSI.exe
+C:\Users\Utilizador\source\repos\Forms1 - PSI\Forms1 - PSI\obj\Debug\Forms1 - PSI.pdb
