@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Solar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <style>
+    .nav-buttons a{
+      color: white;
+    }
+  </style>
+
+<header>
+  <!-- Logo como botão que retorna à Home -->
+  <button class="logo-btn logo" onclick="window.location.href='index.html'">
+      <img src="ASSETS/Logo.png" alt="Sistema Solar">
+  </button>
+  <!-- Botões adicionais e controles -->
+  <div class="nav-buttons">
+      <a class="nav-btn Lora home-btn" href="index.html">HOME</a>
+      <div class="subnav">
+          <button  class="subnavbtn Lora" style="color: white;" >SISTEMA SOLAR<i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a class="nav-btn Lora" href="NEPTUNO.html">NEPTUNO</a>
+            <a class="nav-btn Lora" href="URANO.html">URANO</a>
+            <a class="nav-btn Lora" href="SATURNO.html">SATURNO</a>
+            <a class="nav-btn Lora" href="JUPITER.html">JUPITER</a>
+            <a class="nav-btn Lora" href="MARTE.html">MARTE</a>
+            <a class="nav-btn Lora" href="TERRA.html">TERRA</a>
+            <a class="nav-btn Lora" href="VENUS.html">VENUS</a>
+            <a class="nav-btn Lora" href="MERCURIO.html">MERCURIO</a>
+            <a class="nav-btn Lora" href="SOL.html">SOL</a>
+          </div>
+        </div>
+  </div>
+</header>
+
+    <div class="container-planetas">
+      <img class="modelo" src="https://i.pinimg.com/564x/4b/9a/23/4b9a23467c2a88b5b0b9f6a02c615028.jpg" alt="ESTUDIO-IMG">
+      <div class="text-content-planetas">
+        <h1>SATURNO</h1>
+        <p>Saturno é o sexto planeta a partir do Sol e o segundo maior do sistema solar. Está rodeado por lindos anéis.</p>
+      </div>
+    </div>
+    
+    <div class="container-iframe">
+      <div class="text-content-vg">
+        <h1>Fatos sobre Saturno:</h1>
+        <h2>Saturno é o sexto planeta a partir do Sol e o segundo maior planeta do nosso sistema solar. Adornado com um deslumbrante sistema de anéis gelados, Saturno é único entre os planetas.</h2>
+        <h2>Saturno é uma bola enorme feita principalmente de hidrogênio e hélio. O planeta mais distante da Terra descoberto a olho nu, Saturno é conhecido desde os tempos antigos. O planeta recebeu o nome do deus romano da agricultura e da riqueza, que também era o pai de Júpiter.</h2>
+        <div class="container-iframe" >
+          <iframe src="https://eyes.nasa.gov/apps/solar-system/#/saturn" allowfullscreen ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Todos os direitos reservados © 2024</p>
+      <p>Com imagens e apoio de:</p>
+      <img class="Nasa" src="https://science.nasa.gov/_nuxt/nasa-logo.CFKB7Wqh.svg" onclick="window.location.href='https://science.nasa.gov/solar-system/'"  alt="Nasa Logo">
+      <img class="epbjc" src="https://epbjc.pt/wp-content/uploads/2024/01/epbjc-porto.svg" onclick="window.location.href='https://epbjc.pt'" alt="Melhor escola do mundo">
+    </footer>
+
+</body>

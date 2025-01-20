@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Solar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <style>
+    .nav-buttons a{
+      color: white;
+    }
+  </style>
+
+<header>
+  <!-- Logo como botão que retorna à Home -->
+  <button class="logo-btn logo" onclick="window.location.href='index.html'">
+      <img src="ASSETS/Logo.png" alt="Sistema Solar">
+  </button>
+  <!-- Botões adicionais e controles -->
+  <div class="nav-buttons">
+      <a class="nav-btn Lora home-btn" href="index.html">HOME</a>
+      <div class="subnav">
+        <button  class="subnavbtn Lora" style="color: white;" >SISTEMA SOLAR<i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a class="nav-btn Lora" href="NEPTUNO.html">NEPTUNO</a>
+            <a class="nav-btn Lora" href="URANO.html">URANO</a>
+            <a class="nav-btn Lora" href="SATURNO.html">SATURNO</a>
+            <a class="nav-btn Lora" href="JUPITER.html">JUPITER</a>
+            <a class="nav-btn Lora" href="MARTE.html">MARTE</a>
+            <a class="nav-btn Lora" href="TERRA.html">TERRA</a>
+            <a class="nav-btn Lora" href="VENUS.html">VENUS</a>
+            <a class="nav-btn Lora" href="MERCURIO.html">MERCURIO</a>
+            <a class="nav-btn Lora" href="SOL.html">SOL</a>
+          </div>
+        </div>
+  </div>
+</header>
+
+    <div class="container-planetas">
+      <img class="modelo" src="https://i.pinimg.com/564x/5f/c7/3d/5fc73dbc85e18d7164f51e6d408548cd.jpg" alt="ESTUDIO-IMG">
+      <div class="text-content-planetas">
+        <h1>JUPITER</h1>
+        <p>Júpiter é o quinto planeta a partir do Sol e o maior do sistema solar. Mais do dobro da massa dos outros planetas combinados.</p>
+      </div>
+    </div>
+    
+    <div class="container-iframe">
+      <div class="text-content-vg">
+        <h1>Fatos sobre Jupiter:</h1>
+        <h2>Júpiter é um mundo de extremos.
+
+          Júpiter é o maior planeta do nosso sistema solar. Se Júpiter fosse uma concha oca, caberiam 1.000 Terras dentro dela. Júpiter também é o planeta mais antigo, formando-se a partir da poeira e dos gases que sobraram da formação do Sol, há 4,5 mil milhões de anos. Mas tem o dia mais curto do sistema solar, levando apenas 10,5 horas para girar uma vez em seu eixo.</h2>
+        <h2>O rei dos planetas foi nomeado em homenagem a Júpiter, rei dos deuses na mitologia romana. A maioria de suas luas também tem nomes de personagens mitológicos, figuras associadas a Júpiter ou seu homólogo grego, Zeus.</h2>
+        <div class="container-iframe" >
+          <iframe src="https://eyes.nasa.gov/apps/solar-system/#/jupiter" allowfullscreen ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Todos os direitos reservados © 2024</p>
+      <p>Com imagens e apoio de:</p>
+      <img class="Nasa" src="https://science.nasa.gov/_nuxt/nasa-logo.CFKB7Wqh.svg" onclick="window.location.href='https://science.nasa.gov/solar-system/'"  alt="Nasa Logo">
+      <img class="epbjc" src="https://epbjc.pt/wp-content/uploads/2024/01/epbjc-porto.svg" onclick="window.location.href='https://epbjc.pt'" alt="Melhor escola do mundo">
+    </footer>
+
+</body>

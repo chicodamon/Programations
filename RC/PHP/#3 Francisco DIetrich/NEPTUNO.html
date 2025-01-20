@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Solar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <style>
+    .nav-buttons a{
+      color: white;
+    }
+  </style>
+
+<header>
+  <!-- Logo como botão que retorna à Home -->
+  <button class="logo-btn logo" onclick="window.location.href='index.html'">
+      <img src="ASSETS/Logo.png" alt="Sistema Solar">
+  </button>
+  <!-- Botões adicionais e controles -->
+  <div class="nav-buttons">
+      <a class="nav-btn Lora home-btn" href="index.html">HOME</a>
+      <div class="subnav">
+        <button  class="subnavbtn Lora" style="color: white;" >SISTEMA SOLAR<i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a class="nav-btn Lora" href="NEPTUNO.html">NEPTUNO</a>
+            <a class="nav-btn Lora" href="URANO.html">URANO</a>
+            <a class="nav-btn Lora" href="SATURNO.html">SATURNO</a>
+            <a class="nav-btn Lora" href="JUPITER.html">JUPITER</a>
+            <a class="nav-btn Lora" href="MARTE.html">MARTE</a>
+            <a class="nav-btn Lora" href="TERRA.html">TERRA</a>
+            <a class="nav-btn Lora" href="VENUS.html">VENUS</a>
+            <a class="nav-btn Lora" href="MERCURIO.html">MERCURIO</a>
+            <a class="nav-btn Lora" href="SOL.html">SOL</a>
+          </div>
+        </div>
+  </div>
+</header>
+
+    <div class="container-planetas">
+      <img class="modelo" src="https://i.pinimg.com/564x/07/3a/41/073a41e2c344622c910ef77d2ed0d7dd.jpg" alt="ESTUDIO-IMG">
+      <div class="text-content-planetas">
+        <h1>NEPTUNO</h1>
+        <p>Neptuno é o oitavo e mais distante planeta do Sol. É o quarto maior e o primeiro planeta descoberto com matemática.</p>
+      </div>
+    </div>
+    
+    <div class="container-iframe">
+      <div class="text-content-vg">
+        <h1>Fatos sobre Neptuno:</h1>
+        <h2>Escuro, frio e açoitado por ventos supersônicos, o gigante Netuno é o oitavo e mais distante planeta orbitando nosso Sol. Mais de 30 vezes mais longe do Sol que a Terra, Netuno não é visível a olho nu.</h2>
+        <h2>A cor azul do planeta vem do metano na sua atmosfera, que absorve comprimentos de onda vermelhos de luz, mas permite que os azuis sejam refletidos de volta para o espaço, muito parecido com o seu vizinho, Urano. Netuno foi o primeiro planeta localizado usando matemática. O astrônomo alemão Johann Galle foi o primeiro a observar o planeta em 1846. O planeta recebeu o nome do deus romano do mar.</h2>
+        <div class="container-iframe" >
+          <iframe src="https://eyes.nasa.gov/apps/solar-system/#/neptune" allowfullscreen ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Todos os direitos reservados © 2024</p>
+      <p>Com imagens e apoio de:</p>
+      <img class="Nasa" src="https://science.nasa.gov/_nuxt/nasa-logo.CFKB7Wqh.svg" onclick="window.location.href='https://science.nasa.gov/solar-system/'"  alt="Nasa Logo">
+      <img class="epbjc" src="https://epbjc.pt/wp-content/uploads/2024/01/epbjc-porto.svg" onclick="window.location.href='https://epbjc.pt'" alt="Melhor escola do mundo">
+    </footer>
+
+</body>

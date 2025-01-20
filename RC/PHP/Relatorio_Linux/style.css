@@ -1,0 +1,89 @@
+
+html{
+    margin: 100px;
+    zoom: 0.8;
+}
+
+body {
+    background-color: rgb(147, 210, 255);
+}
+
+
+.Container{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(147, 210, 255);
+}
+
+
+.title h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+    height: 40px;
+}
+
+.title h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.EPBJC-Logo {
+    height: 50px;
+}
+
+.EPBJC-Logo img {
+    height: 100px;
+}
+
+.info{
+    line-height: 35px;
+    text-align: justify;
+    padding: 70px;
+    height: 270px;
+}
+
+.info h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+.info h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+.code {
+    background-color: #333;
+}
+
+.code h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 8px;
+    height: 35px;
+
+} 
+
+
+.Img-cont {
+    align-items: center;
+    text-align: center;
+}
+
+.GIF{
+    align-items: center;
+    text-align: center;
+}
+
+.GIF img{
+    height: 500px;
+    border-radius: 10px;
+}
+
+footer{
+    text-align: center;
+    align-items: center;
+}

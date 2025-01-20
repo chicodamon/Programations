@@ -1,0 +1,609 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+
+.logo-btn {
+  padding: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #333;
+}
+
+.logo-btn img{
+  height: 70px;
+  border-radius: 20px;
+}
+
+.logo-btn:hover {
+  transition: 0.4s;
+  opacity: 50%;
+}
+
+
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.nav-buttons a{
+  color: white;
+}
+
+.nav-btn {
+  margin-left: 5px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #444;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+}
+
+.nav-btn:hover {
+  transition: 0.4s;
+  opacity: 50%;
+  transition: 0.4s;
+  text-decoration: underline;
+}
+
+.account-btn:hover, .cart-btn:hover .img{
+  transition: 0.4s;
+  opacity: 50%;
+}
+
+.icon-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.icon-btn:hover {
+  transition: 0.4s;
+  opacity: 50%;
+}
+
+.icon-btn img {
+  width: 24px;
+  height: 24px;
+}
+
+.cart-btn img {
+  padding-right: 10px;
+}
+
+.logo-text {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  font-style: italic;
+  font-size: 30px;
+  width: 10px;
+  padding-right: 1000px;
+}
+
+.logo-text:hover {
+  transition: 0.4s;
+  background-color: #f3f3f3;
+}
+
+.container {
+  height: 1000px;
+  background-color: black;
+  overflow: hidden;
+  padding-top: 15px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+}
+
+.text-content {
+  max-width: 1000px;
+  text-align: justify;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  justify-content: center;
+  color: white;
+}
+
+.text-content h1 {
+  font-size: 80px;
+  color: white;
+}
+
+.text-content p {
+  font-size: 45px;
+  color: white;
+}
+
+.shop-but {
+  padding: 17px 37px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+  font-size: 30px;
+}
+
+.shop-but:hover {
+  transition: 0.4s;
+  opacity: 50%;
+}
+
+.modelo {
+  position: absolute;
+  width: 30%;
+  right: 10%;
+  border-radius: 100%;
+}
+
+.lora {
+  font-family: "Lora", serif;
+  font-size: 14px;
+  font-style: italic;
+  
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The subnavigation menu */
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  margin: 0;
+}
+
+.subnavbtn {
+  font-size: 20px;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+.subnavbtn:hover {
+  cursor: pointer;
+}
+
+.subnavbtn a{
+  color: white;
+}
+
+/* Add a background color to navigation links on hover */
+.navbar a:hover, .subnav:hover .subnavbtn:hover {
+  transition: 0.4s;
+  opacity: 50%;
+  text-decoration: underline;
+}
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: block;
+  position: absolute;
+  left: 0;
+  background-color: transparent;
+  width: 100%;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: right;
+  color: #333;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  transition: 0.4s;
+  opacity: 50%;
+}
+
+/* Animation for subnav */
+.subnav:hover .subnav-content {
+  height: 5%; /* Adjust the height to fit your content */
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 750){
+  .sphere{
+    width: 300px;
+    height: 300px;
+    right: 50%;
+  }
+
+  .modelo{
+    width: 350px;
+    padding-left: 310px;
+  }
+  
+  .text-content {
+    width: 250px;
+  }
+}
+
+/*Produtos*/
+
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+  width: 90%;
+  margin: 50px auto;
+  text-align: left;
+  cursor: pointer;
+}
+
+.product-image {
+  margin-bottom: 20px;
+  transition: 0.4s ease;
+  background-color: black;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: black;
+}
+
+
+.product-colors {
+  margin-bottom: 20px;
+}
+
+.product-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+  color: #333;
+  cursor: pointer;
+}
+
+.product-btn:hover {
+  transition: 0.4s;
+  opacity: 50%;
+}
+
+.product {
+  transition: 0.4s ease;
+  border: 2px black;
+}
+
+.product:hover {
+  transform: translateY(-14px);
+  opacity: 90%;
+}
+
+/*titulos precos etc.*/
+
+.titulo-do-produto {
+  font-family: "Lora";
+  font-size: 35px;
+  color: white;
+}
+
+.pequenos-detalhes{
+  font-family: "Lora", monospace;
+  font-size: 23px;
+  color: white;
+}
+
+h3{
+  font-size: 20px;
+}
+
+/* Estilo para os botões de cor redondos */
+.color-options {
+  display: flex;
+  gap: 10px;
+}
+
+.color-btn {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  padding: 0;
+  outline: none;
+  transition: transform 0.4s ease;
+}
+
+.color-btn:hover {
+  transform: scale(1.1);
+}
+
+.color1 {
+  background-color: #333; /* Preto, por exemplo */
+}
+
+.color2 {
+  background-color: #0f9f68; /* Verde, por exemplo */
+}
+
+.color3 {
+  background-color: #f5b041; /* Amarelo ou laranja */
+}
+
+.product {
+  padding-top: 30px;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+
+      .bd-mode-toggle .dropdown-menu .active .bi {
+        display: block !important;
+      }
+
+
+.home-btn{
+  padding-right: 15px;
+}
+
+
+
+.container-cont{
+  background-color: white;
+  height: 1000px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.TELL {
+  padding-top: 300px;
+}
+
+.form-control {
+  border-color: #333;
+  width: 400px;
+  height: 30px;
+  font-size: 30px;
+}
+
+.contactos {
+  font-size: 40px;
+}
+
+.form-BIG{
+  border-color: #333;
+  width: 400px;
+  height: 150px;
+  font-size: 30px;
+  text-align: start;
+}
+
+.container-contactos{
+  background-color: white;
+  height: 800px;
+  text-align: center;
+  padding-top: 200px;
+}
+
+html {
+  scroll-behavior: smooth;
+  zoom: 80%;
+}
+
+.img-stud{
+  height: 1570px;
+  opacity: 70%;
+}
+
+
+footer{
+  text-align: center;
+  color: #333;
+  padding-top: 140px;
+}
+
+footer p{
+  color: white;
+  font-size: 20px;
+}
+
+.container-pad1{
+  position: relative;
+  height: 900px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.text-content-planetas {
+  width: 820px;
+  position: absolute;
+  top: 30%;
+  right: 55%;
+  transform: translateY(-50%);
+  z-index: 2;
+  text-align: left;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.text-content-planetas h1{
+  font-size: 50px;
+  color: white;
+}
+
+.text-content-planetas h2 {
+  font-size: 35px;
+  color: white;
+}
+
+.text-content-planetas p {
+  font-size: 30px;
+  color: white;
+}
+
+.container-planetas {
+  position: relative;
+  height: 1000px;
+  background-color: black;
+  overflow: hidden;
+}
+
+.text-content-vg {
+  max-width: 2000px;
+  margin: 50px auto; 
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  z-index: 2;
+}
+
+
+.text-content-vg h1{
+  font-size: 50px;
+  color: white;
+}
+
+.text-content-vg h2 {
+  font-size: 30px;
+  color: white;
+}
+
+iframe {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+  width: 1500px;
+}
+
+.container-iframe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  margin: 0;
+  padding-top: 80px;
+  padding-top: 80px;
+}
+
+.epbjc{
+  height: 100px;
+}
+
+.epbjc:hover {
+  cursor: pointer;
+  transition: 0.4s;
+  opacity: 70%;
+}
+
+.Nasa:hover{
+  cursor: pointer;
+  transition: 0.4s;
+  opacity: 70%;
+}
+
+.inicio {
+  height: 1100px;
+}
+
+.img-inicio {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+}

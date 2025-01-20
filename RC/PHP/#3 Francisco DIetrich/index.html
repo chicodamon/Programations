@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Solar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <style>
+    .nav-buttons a{
+      color: white;
+    }
+  </style>
+
+  <header>
+    <!-- Logo como botão que retorna à Home -->
+    <button class="logo-btn logo" onclick="window.location.href='index.html'">
+        <img src="ASSETS/Logo.png" alt="Sistema Solar">
+    </button>
+    <!-- Botões adicionais e controles -->
+    <div class="nav-buttons">
+        <a class="nav-btn Lora home-btn" href="index.html">HOME</a>
+        <div class="subnav">
+          <button  class="subnavbtn Lora" style="color: white;" >SISTEMA SOLAR<i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+              <a class="nav-btn Lora" href="NEPTUNO.html">NEPTUNO</a>
+              <a class="nav-btn Lora" href="URANO.html">URANO</a>
+              <a class="nav-btn Lora" href="SATURNO.html">SATURNO</a>
+              <a class="nav-btn Lora" href="JUPITER.html">JUPITER</a>
+              <a class="nav-btn Lora" href="MARTE.html">MARTE</a>
+              <a class="nav-btn Lora" href="TERRA.html">TERRA</a>
+              <a class="nav-btn Lora" href="VENUS.html">VENUS</a>
+              <a class="nav-btn Lora" href="MERCURIO.html">MERCURIO</a>
+              <a class="nav-btn Lora" href="SOL.html">SOL</a>
+            </div>
+          </div>
+    </div>
+</header>
+
+    <div class="container">
+      <div class="img-inicio">
+        <img class="inicio" src="ASSETS/inicio.jpg" alt="">
+      </div>
+      <div class="text-content">
+        <h1>Sistema Solar</h1>
+        <p>O nosso sistema solar tem uma estrela, oito planetas, cinco planetas anões oficialmente nomeados, centenas de luas, milhares de cometas e mais de um milhão de asteróides.</p>
+            <button class="shop-but" onclick="document.getElementById('1').scrollIntoView();" >Saiba Mais...</button>
+      </div>
+    </div>
+
+    <div class="product-container">
+      <div class="product" id="1">
+        <div class="product-image">
+          <img id="product1-img" src="ASSETS/SOL.jpg" onclick="window.location.href='SOL.html'" alt="SOL">
+        </div>
+        <div class="detail">
+          <h1 class="titulo-do-produto">SOL</h1>
+          <p class="pequenos-detalhes">O Sol é a estrela no coração do nosso Sistema Solar. A gravidade do Sol mantém o Sistema Solar unido</p>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product-image">
+          <img id="product2-img" src="ASSETS/Mercurio.png" onclick="window.location.href='MERCURIO.html'" alt="Product 2">
+        </div>
+        <div class="detail">
+          <h1 class="titulo-do-produto">MERCURIO</h1>
+          <p class="pequenos-detalhes">Mercúrio é o planeta mais próximo do Sol e o menor planeta do nosso sistema solar. Apenas um pouco maior que a Lua da Terra.</p>
+
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product-image">
+          <img id="product3-img" src="ASSETS/Venus.png" onclick="window.location.href='VENUS.html'" alt="Product 3">
+        </div>
+        <div class="detail">
+          <h1 class="titulo-do-produto">VENUS</h1>
+          <p class="pequenos-detalhes">Vênus é o segundo planeta a partir do Sol e o sexto maior planeta. É o planeta mais quente do nosso sistema solar.</p>
+        </div>
+      </div>
+  </div>
+
+  <div class="product-container">
+    <div class="product" id="1">
+      <div class="product-image">
+        <img id="product1-img" src="ASSETS/Terra.png" onclick="window.location.href='TERRA.html'" alt="TERRA">
+      </div>
+      <div class="detail">
+        <h1 class="titulo-do-produto">TERRA</h1>
+        <p class="pequenos-detalhes">A tua casa. A nossa casa. A casa de todos</p>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="product-image">
+        <img id="product2-img" src="ASSETS/Marte.png" onclick="window.location.href='MARTE.html'" alt="Product 2">
+      </div>
+      <div class="detail">
+        <h1 class="titulo-do-produto">MARTE</h1>
+        <p class="pequenos-detalhes">Marte é o quarto planeta a partir do Sol e o sétimo maior. É o único planeta que conhecemos habitado inteiramente por robos.</p>
+
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="product-image">
+        <img id="product3-img" src="ASSETS/Jupiter.png" onclick="window.location.href='JUPITER.html'" alt="Product 3">
+      </div>
+      <div class="detail">
+        <h1 class="titulo-do-produto">JUPITER</h1>
+        <p class="pequenos-detalhes">Júpiter é o quinto planeta a partir do Sol e o maior do sistema solar. Tem mais que o dobro da massa de todos os outros planetas do sistema combinados.</p>
+
+      </div>
+    </div>
+</div>
+
+
+<div class="product-container">
+  <div class="product" id="1">
+    <div class="product-image">
+      <img id="product1-img" src="ASSETS/Saturno-2.png" onclick="window.location.href='SATURNO.html'" alt="TERRA">
+    </div>
+    <div class="detail">
+      <h1 class="titulo-do-produto">SATURNO</h1>
+      <p class="pequenos-detalhes">Saturno é o sexto planeta a partir do Sol e o segundo maior do sistema solar. Está rodeado por lindos anéis.</p>
+    </div>
+  </div>
+
+  <div class="product">
+    <div class="product-image">
+      <img id="product2-img" src="ASSETS/Urano.png" onclick="window.location.href='URANO.html'" alt="Product 2">
+    </div>
+    <div class="detail">
+      <h1 class="titulo-do-produto">URANO</h1>
+      <p class="pequenos-detalhes">Urano é o sétimo planeta a partir do Sol e o terceiro maior planeta do nosso sistema solar.</p>
+
+    </div>
+  </div>
+
+  <div class="product">
+    <div class="product-image">
+      <img id="product3-img" src="ASSETS/Netuno-2.png" onclick="window.location.href='NETUNO.html'" alt="Product 3">
+    </div>
+    <div class="detail">
+      <h1 class="titulo-do-produto">NETUNO</h1>
+      <p class="pequenos-detalhes">Netuno é o oitavo e mais distante planeta do Sol. É o quarto maior e o primeiro planeta descoberto com matemática.</p>
+
+    </div>
+  </div>
+
+</div>
+
+<div class="container-iframe">
+  <div class="text-content-vg">
+    <h1>Fatos sobre o Sistema Solar:</h1>
+    <h2>O sistema solar é centrado no Sol, que contém cerca de 99,86% de toda sua massa. Ele é composto por oito planetas: quatro rochosos (Mercúrio, Vênus, Terra e Marte) e quatro gigantes (Júpiter, Saturno, Urano e Netuno). Além disso, temos os planetas anões, como Plutão, e vastos cinturões de asteroides e cometas. A gravidade do Sol mantém todos esses corpos em órbita, organizando o sistema solar como o conhecemos.</h2>
+    <h2>Vênus, e não Mercúrio, é o planeta mais quente devido ao efeito estufa, e acredita-se que possa chover diamantes em Júpiter e Saturno devido à alta pressão atmosférica!</h2>
+    <h2>O Sistema Solar compreende o conjunto constituído pelo Sol e todos os corpos celestes que estão sob seu domínio gravitacional. A estrela central, maior componente do sistema, respondendo por mais de 99,85% da massa total,[5] gera sua energia através da fusão de hidrogênio em hélio, dois de seus principais constituintes. Os quatro planetas mais próximos do Sol (Mercúrio, Vênus, Terra e Marte) possuem em comum uma crosta sólida e rochosa, razão pela qual se classificam no grupo dos planetas telúricos ou rochosos. Mais afastados, os quatro gigantes gasosos, Júpiter, Saturno, Urano e Netuno, são os componentes de maior massa do sistema logo após o próprio Sol. Dos cinco planetas anões, Ceres é o que se localiza mais próximo do centro do Sistema Solar, enquanto todos os outros, Plutão, Haumea, Makemake e Éris, encontram-se além da órbita de Netuno.</h2>
+
+      <h2>Permeando praticamente toda a extensão do Sistema Solar, existem incontáveis objetos que constituem a classe dos corpos menores. Os asteroides, essencialmente rochosos, concentram-se numa faixa entre as órbitas de Marte e Júpiter que se assemelha a um cinturão. Além da órbita do último planeta, a temperatura é suficientemente baixa para permitir a existência de fragmentos de gelo, que se aglomeram sobretudo nas regiões do Cinturão de Kuiper, disco disperso e na nuvem de Oort; esporadicamente são desviados para o interior do sistema onde, pela ação do calor do Sol, transformam-se em cometas. Muitos corpos, por sua vez, possuem força gravitacional suficiente para manter orbitando em torno de si objetos menores, os satélites naturais, com as mais variadas formas e dimensões. Os planetas gigantes apresentam, ainda, sistemas de anéis planetários, uma faixa composta por minúsculas partículas de gelo e poeira.</h2>
+      
+      <h2>O Sistema Solar, de acordo com a teoria mais aceita hoje em dia, teve origem a partir de uma nuvem molecular que, por alguma perturbação gravitacional, entrou em colapso e formou a estrela central, enquanto seus remanescentes geraram os demais corpos. Em sua configuração atual, todos os componentes descrevem órbitas praticamente elípticas ao redor do Sol, constituindo um sistema dinâmico no qual os corpos estão em mútua interação mediada sobretudo pela força gravitacional. A sua estrutura tem sido objeto de estudos desde a antiguidade, mas somente há cinco séculos a humanidade reconheceu o fato de que o Sol, e não a Terra, constitui o centro do movimento planetário. Desde então, a evolução dos equipamentos de pesquisa, como telescópios, possibilitou uma maior compreensão do sistema. Entretanto, detalhes sem precedentes foram obtidos somente após o envio de sondas espaciais a todos os planetas, que retornam imagens e dados com uma precisão nunca antes alcançada.</h2>
+    </div>
+  </div>
+  
+  <div class="container-iframe" >
+  <iframe src="https://eyes.nasa.gov/apps/solar-system" allowfullscreen ></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/libKVRa01L8?si=CSF9Vh7jdjeOERpV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<footer>
+  <p>Todos os direitos reservados © 2024</p>
+  <p>Com imagens e apoio de:</p>
+  <img class="Nasa" src="https://science.nasa.gov/_nuxt/nasa-logo.CFKB7Wqh.svg" onclick="window.location.href='https://science.nasa.gov/solar-system/'"  alt="Nasa Logo">
+  <img class="epbjc" src="https://epbjc.pt/wp-content/uploads/2024/01/epbjc-porto.svg" onclick="window.location.href='https://epbjc.pt'" alt="Melhor escola do mundo">
+</footer>
+
+</body>
+</html>

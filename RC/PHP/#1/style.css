@@ -1,0 +1,35 @@
+body {
+  font-family: "Lora";
+  text-align: center;
+  background-color: #333;
+}
+
+a{
+  text-decoration: none;
+  color: #888;
+  padding: 10px;
+  }
+
+a:hover{
+  transition: 0.4s;
+  background-color: #696969;
+  border-radius: 5px;
+}
+
+.boxe{
+  width: 800px;
+  height: 800px;
+}
+
+.paragraf{
+  width: 800px;
+  color: blue;
+  text-align: justify;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

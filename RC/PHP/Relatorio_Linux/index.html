@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Container">
+        <div class="title">
+            <div class="EPBJC-Logo">
+                <a href="https://epbjc.pt/"><img src="https://epbjc.pt/wp-content/uploads/2024/01/epbjc-porto.svg" alt="EPBJC"></a>
+            </div>
+            <h1>Comandos do Kali Linux</h1>
+            <h3>No ambito da disciplina de Sistemas Operativos</h3>
+        </div>
+    </div>
+
+    <div class="Img-cont">
+
+        <img src="https://www.kali.org/images/kali-desktop-xfce.jpg" alt="Kali Linux Desktop Img">
+
+    </div>
+
+    <div class="info">
+        <h1>O que é o Kali Linux?</h1>
+        <h2>Kali Linux é um sistema operacional especializado projetado para análise forense digital e testes de penetração. Desenvolvido pela Offensive Security, o sistema operacional oferece uma ampla gama de ferramentas para tarefas de segurança cibernética. Quer você seja um hacker ético experiente ou iniciante, o Kali Linux oferece um ambiente versátil para trabalhar. Kali Linux possui ferramentas pré-instaladas para diversas tarefas de segurança, incluindo coleta de informações, análise de vulnerabilidades, ataques de senha e ataques sem fio. Este pacote completo permite que hackers éticos simplifiquem seu trabalho e se concentrem em seu objetivo principal: identificar e corrigir vulnerabilidades de segurança.</h2>
+    </div>
+
+    <div class="info">
+        <h1>Navegação de Diretorios:</h1>
+        <h2>Aprenda a explorar e gerenciar a estrutura de diretórios do sistema, utilizando comandos para listar, acessar e criar diretórios.</h2>
+
+        <!--ls-->
+
+        <h2>1. 'ls' -- Um dos comandos mais básicos e usados ​com frequência no Linux, o comando ls lista o conteúdo de um diretório. Usar ls permite ver rapidamente quais arquivos e pastas estão em seu diretório atual. Por exemplo:</h2>
+        <div class="code">
+            <h3> $ ls</h3>
+        </div>
+        <div class="GIF">
+            <img src="ASSETS/ls.gif" alt="">
+        </div>
+        
+        <!--cd-->
+
+        <h2>2. 'cd' -- O comando cd, abreviação de "change directory”, permite navegar entre diretórios. Por exemplo, para mover para o diretório anterior é utilizado:</h2>
+        <div class="code">
+            <h3> $ cd ..</h3>
+        </div>
+        <div class="GIF">
+            <img src="ASSETS/cd.gif" alt="">
+        </div>
+
+
+        <!--mkdir-->
+
+        <h2>3. 'mkdir' -- O comando mkdir, abreviação de "make directory", permite criar novos diretórios. Por exemplo, para criar um novo diretório chamado nome_do_ficheiro, você executaria:</h2>
+        <div class="code">
+            <h3> $ mkdir nome_do_ficheiro</h3>
+        </div>
+        <div class="GIF">
+            <img src="ASSETS/mkdir.gif" alt="">
+        </div>
+
+
+        <!--cd especifico-->
+
+        <h2>4. 'cd' -- O mesmo comando anteriormente mostrado mas desta vez permite movemonos para um diretorio mais especifico:</h2>
+        <div class="code">
+            <h3> $ cd nome_do_ficheiro</h3>
+        </div>
+        <div class="GIF">
+            <img src="ASSETS/cd_especifico.gif" alt="">
+        </div>
+
+        <h1>Manipulação de Ficheiros e Diretórios:</h1>
+        <h2>Manipule arquivos e pastas no sistema, incluindo criação, renomeação, e organização, para manter os dados bem-estruturados.</h2>
+
+        <!--mkdir ex-->
+
+        <h2>5. 'mkdir' -- Vamos criar um diretorio com o nome 'ExerciciosLinux':</h2>
+        <div class="code">
+            <h3> $ mkdir ExerciciosLinux</h3>
+        </div>
+        <div class="GIF">
+            <img src="ASSETS/mkdir_exercicios.gif" alt="">
+        </div>
+
+        <!--touch-->
+
+        <h2>6. 'touch' -- Em seguida vamos criar um ficheiro de texto com o nome 'ficheiro.txt':</h2>
+        <div class="code">
+            <h3> $ touch ficheiro.txt</h3>
+        </div>
+        <div class="GIF">
+            <img src="ASSETS/touch.gif" alt="">
+        </div>
+
+
+        <!--ls-->
+
+        <h2>7. 'ls' -- Podemos listar o conteúdo do nosso diretorio para termos uma ideia de onde estamos:</h2>
+        <div class="code">
+            <h3> $ ls</h3>
+        </div>
+
+        <!--touch-->
+
+        <h2>8. 'mv' -- Com o comando mv podemos renomear ficheiros, neste caso vamos renomear 'ficheiro.txt' para 'novo_ficheiro.txt':</h2>
+        <div class="code">
+            <h3> $ mv ficheiro.txt novo_ficheiro.txt</h3>
+        </div>
+        <div class="GIF">
+            <img src="ASSETS/mv.gif" alt="">
+        </div>
+
+
+        <h1>Visualização de Conteudo:</h1>
+        <h2>Visualize o conteúdo de arquivos diretamente no terminal, facilitando a análise de informações sem a necessidade de editores externos.</h2>
+
+        <!--cat-->
+
+        <h2>9. 'cat' -- O Comando cat permite mostrar o conteudo de um ficheiro no terminal, vamos ver o conteudo presente no ficheiro 'nome_do_ficheiro':</h2>
+        <div class="code">
+            <h3> $ cat nome_do_ficheiro</h3>
+        </div>
+        <div class="GIF">
+            <img src="ASSETS/cat.gif" alt="">
+        </div>
+
+        <!--cat /etc/hosts-->
+
+        <h2>10. 'cat' -- Agora vamos ver o conteudo de '/etc/hosts':</h2>
+        <div class="code">
+            <h3> $ cat /etc/hosts</h3>
+        </div>
+        <div class="GIF">
+            <img src="ASSETS/cat:etc.gif" alt="">
+        </div>
+
+
+        <!--tail-->
+
+        <h2>11. 'tail' -- O tail mostra a ultima linha do conteudo de um ficheiro, no caso as ultimas 5 linhas de um ficheiro de logs de sistema:</h2>
+        <div class="code">
+            <h3> $ tail -n 5 /var/log/syslog</h3>
+        </div>
+        
+        <h1>Gestão de Permissões:</h1>
+        <h2>Gerencie as permissões de acesso a arquivos e diretórios, garantindo segurança e controle sobre quem pode ler, escrever ou executar.</h2>
+
+        <!--ls -l-->
+
+        <h2>12. 'ls' -- No ls existem algumas outras funções como ver as permissões de um ficheiro ou diretorio:</h2>
+        <div class="code">
+            <h3> $ ls -l nome_do_ficheiro/diretorio</h3>
+        </div>
+        <div class="GIF">
+            <img src="ASSETS/ls-l.gif" alt="">
+        </div>
+
+        <!--chmod-->
+
+        <h2>13. 'chmod' -- O chmod altera permições de Proprietário, Grupo e Outros. As permissões incluem: r (read/leitura), w (write/escrita), x (execute/execução). E representação: Simbólica (rwxr-xr--) e Numericas (754). Todas essas permissões podem ser alteradas com o comando chmod:</h2>
+        <div class="code">
+            <h3> $ chmod g+w novo_ficheiro.txt</h3>
+        </div>
+        <div class="GIF">
+            <img src="ASSETS/chmod.gif" alt="">
+        </div>
+
+         <h1>Comandos de Procura:</h1>
+         <h2>Localize rapidamente arquivos e diretórios no sistema utilizando ferramentas de busca eficientes e personalizáveis.</h2>
+
+         <!--find-->
+
+         <h2>14. 'find' -- O find, como o nome indica, procura ficheiros ou diretorios:</h2>
+         <div class="code">
+             <h3> $ find</h3>
+         </div>
+         <h2>15. 'find' -- Encontrar ficheiros .txt no diretorio atual:</h2>
+         <div class="code">
+            <h3> $ find . -name '*.txt'</h3>
+        </div>
+        <div class="GIF">
+            <img src="ASSETS/find-txt.gif" alt="">
+        </div>
+
+        <!--find-->
+
+        <h2>16. 'find' -- Encontrar ficheiros com a plavra "linux" no nome:</h2>
+        <div class="code">
+            <h3> $ find . -name '*Linux*'</h3>
+        </div>
+        <div class="GIF">
+            <img src="ASSETS/find-linux.gif" alt="">
+        </div>
+
+        <h1>Comandos de Cópia e Movimento:</h1>
+        <h2>Realize cópias ou mova arquivos e pastas entre locais diferentes, organizando os dados conforme necessário.</h2>
+
+        <!--cp-->
+
+        <h2>17. 'cp' -- O comando cp serve para copiar um ficheiro para um diretorio:</h2>
+        <div class="code">
+            <h3> $ cp ficheiro destino</h3>
+        </div>
+        <h2>18. 'cp' -- O -r depois do cp faz com que o diretorio copiado seja juntamente copiado com o seu conteudo, neste caso, /ExerciciosLinux é copiado para /Home com os seus ficheiros:</h2>
+        <div class="code">
+            <h3> $ cp -r ExerciciosLinux Home</h3>
+        </div>
+        <div class="GIF">
+            <img src="ASSETS/cp.gif" alt="">
+        </div>
+
+        <!--mv-->
+
+        <h2>19. 'mv' -- O comando mv não serve apenas para renomear um ficheiro, tambem serve para mover ficheiros para um diretorio, neste caso o novo_ficheiro é copeado para o diretorio "pai":</h2>
+        <div class="code">
+            <h3> $ mv novo_ficheiro.txt ..</h3>
+        </div>
+        <div class="GIF">
+            <img src="ASSETS/mv-novo.gif" alt="">
+        </div>
+
+        <h1>Comandos de informações do Sistema:</h1>
+         <h2>Obtenha informações detalhadas sobre o sistema, incluindo hardware, armazenamento e status operacional.</h2>
+        
+        <!--uname-->
+
+        <h2>20. 'uname' -- uname é um dos comandos que permite obter informações do sistema:</h2>
+        <div class="code">
+            <h3> $ uname -a</h3>
+        </div>
+        <div class="GIF">
+            <img src="ASSETS/uname-a.gif" alt="">
+        </div>
+
+        <!--df-->
+
+        <h2>21. 'df' -- df permite exibir espaço livre e usado no disco:</h2>
+        <div class="code">
+            <h3> $ df -h</h3>
+        </div>
+        <div class="GIF">
+            <img src="ASSETS/df.gif" alt="">
+        </div>
+
+        <!--lscpu-->
+
+        <h2>22. 'lscpu' -- O comando lscpu mostra informações sobre a CPU no terminal:</h2>
+        <div class="code">
+            <h3> $ lscpu</h3>
+        </div>
+        <div class="GIF">
+            <img src="ASSETS/lscpu.gif" alt="">
+        </div>
+        
+        <h1>Comandos de Processos</h1>
+         <h2>Gerencie processos ativos no sistema, monitorando e encerrando aqueles que não são mais necessários.</h2>
+
+
+        <!--ps aux-->
+
+        <h2>23. 'ps' -- ps lista processos em execução:</h2>
+        <div class="code">
+            <h3> $ ps aux</h3>
+        </div>
+        <div class="GIF">
+            <img src="ASSETS/ps_aux.gif" alt="">
+        </div>
+
+        <!--kill -->
+
+        <h2>24. 'kill' -- O kill é um comando que permite acabar ou terminar um processo, por iD ou por nome:</h2>
+        <div class="code">
+            <h3> $ kill ID_do_processo</h3>
+        </div>
+        <h2>25. 'pkill' -- O pkill é um comando que permite acabar ou terminar todos os processos com determinado ID ou nome:</h2>
+        <div class="code">
+            <h3> $ pkill nome_do_processo</h3>
+        </div>
+        <div class="GIF">
+            <img src="ASSETS/ps_aux.gif" alt="">
+        </div>
+
+
+        <h1>Comandos de Rede</h1>
+         <h2>Verifique o estado da rede, obtenha detalhes sobre conexões ativas e identifique portas abertas para diagnóstico e configuração.</h2>
+
+         <!--ping-->
+
+        <h2>26. 'ping' -- O ping verifica o estado da rede usando um link como por exemplo "jn.pt":</h2>
+        <div class="code">
+            <h3> $ ping jn.pt</h3>
+        </div>
+        <div class="GIF">
+            <img src="ASSETS/ping.gif" alt="">
+        </div>
+
+        <!--ifconfig-->
+
+        <h2>27. 'ifconfig' -- ifconfig exibe informações detalhadas de rede:</h2>
+        <div class="code">
+            <h3> $ ifconfig</h3>
+        </div>
+        <div class="GIF">
+            <img src="ASSETS/ifconfig.gif" alt="">
+        </div>
+
+        <!--netstat -tuln-->
+
+        <h2>28. 'netstat' -- netstat lista as portas abertas:</h2>
+        <div class="code">
+            <h3> $ netstat -tuln</h3>
+        </div>
+        <div class="GIF">
+            <img src="ASSETS/netstat.gif" alt="">
+        </div>
+
+        <footer>
+            <h2>Relatorio Comandos Kali Linux</h2>
+            <h1>Trabalho realizado por: Francisco Dietrich</h1>
+            <div class="EPBJC-Logo"></div>
+                <a href="https://epbjc.pt/"><img src="https://epbjc.pt/wp-content/uploads/2024/01/epbjc-porto.svg" alt="EPBJC"></a>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>

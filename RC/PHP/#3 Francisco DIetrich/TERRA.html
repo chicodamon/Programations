@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Solar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <style>
+    .nav-buttons a{
+      color: white;
+    }
+  </style>
+
+<header>
+  <!-- Logo como botão que retorna à Home -->
+  <button class="logo-btn logo" onclick="window.location.href='index.html'">
+      <img src="ASSETS/Logo.png" alt="Sistema Solar">
+  </button>
+  <!-- Botões adicionais e controles -->
+  <div class="nav-buttons">
+      <a class="nav-btn Lora home-btn" href="index.html">HOME</a>
+      <div class="subnav">
+        <button  class="subnavbtn Lora" style="color: white;" >SISTEMA SOLAR<i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a class="nav-btn Lora" href="NEPTUNO.html">NEPTUNO</a>
+            <a class="nav-btn Lora" href="URANO.html">URANO</a>
+            <a class="nav-btn Lora" href="SATURNO.html">SATURNO</a>
+            <a class="nav-btn Lora" href="JUPITER.html">JUPITER</a>
+            <a class="nav-btn Lora" href="MARTE.html">MARTE</a>
+            <a class="nav-btn Lora" href="TERRA.html">TERRA</a>
+            <a class="nav-btn Lora" href="VENUS.html">VENUS</a>
+            <a class="nav-btn Lora" href="MERCURIO.html">MERCURIO</a>
+            <a class="nav-btn Lora" href="SOL.html">SOL</a>
+          </div>
+        </div>
+  </div>
+</header>
+
+    <div class="container-planetas">
+      <img class="modelo" src="https://i.pinimg.com/564x/2f/16/94/2f1694435c9c8f4b061261537be07fc6.jpg" alt="ESTUDIO-IMG">
+      <div class="text-content-planetas">
+        <h1>A TERRA</h1>
+        <p>A nossa casa <3 </p>
+      </div>
+    </div>
+    
+    <div class="container-iframe">
+      <div class="text-content-vg">
+        <h1>Visao Geral:</h1>
+        <h2>A Terra é o terceiro planeta mais próximo do Sol, o mais denso e o quinto maior dos oito planetas do Sistema Solar. É também o maior dos quatro planetas telúricos. Às vezes é chamado de Mundo Azul ou Planeta. Lar de milhões de espécies de seres vivos, incluindo humanos, a Terra é o único corpo celeste onde se sabe que existe vida. O planeta foi formado há 4,56 mil milhões de anos e a vida surgiu na sua superfície mil milhões de anos depois. </h2>
+        <h2>Desde então, a biosfera terrestre alterou significativamente a atmosfera do planeta e outros factores abióticos, permitindo a proliferação de organismos aeróbicos, bem como a formação de uma camada de ozono, que, em conjunto com o campo magnético da Terra, bloqueia a radiação solar prejudicial, permitindo a vida no planeta.</h2>
+        <div class="container-iframe" >
+          <iframe src="https://eyes.nasa.gov/apps/solar-system/#/earth" allowfullscreen ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Todos os direitos reservados © 2024</p>
+      <p>Com imagens e apoio de:</p>
+      <img class="Nasa" src="https://science.nasa.gov/_nuxt/nasa-logo.CFKB7Wqh.svg" onclick="window.location.href='https://science.nasa.gov/solar-system/'"  alt="Nasa Logo">
+      <img class="epbjc" src="https://epbjc.pt/wp-content/uploads/2024/01/epbjc-porto.svg" onclick="window.location.href='https://epbjc.pt'" alt="Melhor escola do mundo">
+    </footer>
+
+</body>

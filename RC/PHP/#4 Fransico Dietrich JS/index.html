@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Nome: <input class="box" type="text" id="nome"></h1> 
+        <h1>E-mail: <input class="box" type="email" id="email"></h1>
+        <h1>Assunto: 
+            <select class="ass" name="Assunto" id="assunto">
+                <option value="Outro">Outro</option>
+                <option value="Financeiro">Dep. Financeiro</option>
+                <option value="Comercial">Dep. Comercial</option>
+                <option value="Tecnico">Dep. Técnico</option>
+            </select> 
+        </h1>
+        <h1>Mensagem: <textarea class="box" name="Mensagem" id="mensagem"></textarea></h1>
+        <button class="but" id="enviar">Enviar</button>
+        <button class="but" id="apagar">Apagar</button>
+    </div>
+</body>
+</html>
