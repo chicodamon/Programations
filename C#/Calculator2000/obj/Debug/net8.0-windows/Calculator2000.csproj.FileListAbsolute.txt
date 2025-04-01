@@ -1,0 +1,17 @@
+C:\Users\Utilizador\Documents\Programations\C#\Calculator2000\bin\Debug\net8.0-windows\Calculator2000.exe
+C:\Users\Utilizador\Documents\Programations\C#\Calculator2000\bin\Debug\net8.0-windows\Calculator2000.deps.json
+C:\Users\Utilizador\Documents\Programations\C#\Calculator2000\bin\Debug\net8.0-windows\Calculator2000.runtimeconfig.json
+C:\Users\Utilizador\Documents\Programations\C#\Calculator2000\bin\Debug\net8.0-windows\Calculator2000.dll
+C:\Users\Utilizador\Documents\Programations\C#\Calculator2000\bin\Debug\net8.0-windows\Calculator2000.pdb
+C:\Users\Utilizador\Documents\Programations\C#\Calculator2000\obj\Debug\net8.0-windows\Calculator2000.Form1.resources
+C:\Users\Utilizador\Documents\Programations\C#\Calculator2000\obj\Debug\net8.0-windows\Calculator2000.csproj.GenerateResource.cache
+C:\Users\Utilizador\Documents\Programations\C#\Calculator2000\obj\Debug\net8.0-windows\Calculator2000.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utilizador\Documents\Programations\C#\Calculator2000\obj\Debug\net8.0-windows\Calculator2000.AssemblyInfoInputs.cache
+C:\Users\Utilizador\Documents\Programations\C#\Calculator2000\obj\Debug\net8.0-windows\Calculator2000.AssemblyInfo.cs
+C:\Users\Utilizador\Documents\Programations\C#\Calculator2000\obj\Debug\net8.0-windows\Calculator2000.csproj.CoreCompileInputs.cache
+C:\Users\Utilizador\Documents\Programations\C#\Calculator2000\obj\Debug\net8.0-windows\Calculator2000.sourcelink.json
+C:\Users\Utilizador\Documents\Programations\C#\Calculator2000\obj\Debug\net8.0-windows\Calculator2000.dll
+C:\Users\Utilizador\Documents\Programations\C#\Calculator2000\obj\Debug\net8.0-windows\refint\Calculator2000.dll
+C:\Users\Utilizador\Documents\Programations\C#\Calculator2000\obj\Debug\net8.0-windows\Calculator2000.pdb
+C:\Users\Utilizador\Documents\Programations\C#\Calculator2000\obj\Debug\net8.0-windows\Calculator2000.genruntimeconfig.cache
+C:\Users\Utilizador\Documents\Programations\C#\Calculator2000\obj\Debug\net8.0-windows\ref\Calculator2000.dll

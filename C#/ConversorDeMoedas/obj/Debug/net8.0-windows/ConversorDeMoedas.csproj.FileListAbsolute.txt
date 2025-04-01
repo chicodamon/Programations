@@ -1,0 +1,17 @@
+C:\Users\Utilizador\Documents\Programations\C#\ConversorDeMoedas\obj\Debug\net8.0-windows\ConversorDeMoedas.Form1.resources
+C:\Users\Utilizador\Documents\Programations\C#\ConversorDeMoedas\obj\Debug\net8.0-windows\ConversorDeMoedas.csproj.GenerateResource.cache
+C:\Users\Utilizador\Documents\Programations\C#\ConversorDeMoedas\obj\Debug\net8.0-windows\ConversorDeMoedas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utilizador\Documents\Programations\C#\ConversorDeMoedas\obj\Debug\net8.0-windows\ConversorDeMoedas.AssemblyInfoInputs.cache
+C:\Users\Utilizador\Documents\Programations\C#\ConversorDeMoedas\obj\Debug\net8.0-windows\ConversorDeMoedas.AssemblyInfo.cs
+C:\Users\Utilizador\Documents\Programations\C#\ConversorDeMoedas\obj\Debug\net8.0-windows\ConversorDeMoedas.csproj.CoreCompileInputs.cache
+C:\Users\Utilizador\Documents\Programations\C#\ConversorDeMoedas\obj\Debug\net8.0-windows\ConversorDeMoedas.sourcelink.json
+C:\Users\Utilizador\Documents\Programations\C#\ConversorDeMoedas\bin\Debug\net8.0-windows\ConversorDeMoedas.exe
+C:\Users\Utilizador\Documents\Programations\C#\ConversorDeMoedas\bin\Debug\net8.0-windows\ConversorDeMoedas.deps.json
+C:\Users\Utilizador\Documents\Programations\C#\ConversorDeMoedas\bin\Debug\net8.0-windows\ConversorDeMoedas.runtimeconfig.json
+C:\Users\Utilizador\Documents\Programations\C#\ConversorDeMoedas\bin\Debug\net8.0-windows\ConversorDeMoedas.dll
+C:\Users\Utilizador\Documents\Programations\C#\ConversorDeMoedas\bin\Debug\net8.0-windows\ConversorDeMoedas.pdb
+C:\Users\Utilizador\Documents\Programations\C#\ConversorDeMoedas\obj\Debug\net8.0-windows\ConversorDeMoedas.dll
+C:\Users\Utilizador\Documents\Programations\C#\ConversorDeMoedas\obj\Debug\net8.0-windows\refint\ConversorDeMoedas.dll
+C:\Users\Utilizador\Documents\Programations\C#\ConversorDeMoedas\obj\Debug\net8.0-windows\ConversorDeMoedas.pdb
+C:\Users\Utilizador\Documents\Programations\C#\ConversorDeMoedas\obj\Debug\net8.0-windows\ConversorDeMoedas.genruntimeconfig.cache
+C:\Users\Utilizador\Documents\Programations\C#\ConversorDeMoedas\obj\Debug\net8.0-windows\ref\ConversorDeMoedas.dll
