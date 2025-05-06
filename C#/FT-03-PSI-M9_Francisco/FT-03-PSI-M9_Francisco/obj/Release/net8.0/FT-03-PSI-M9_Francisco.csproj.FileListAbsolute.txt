@@ -1,0 +1,14 @@
+C:\Users\psb232463\source\repos\FT-03-PSI-M9_Francisco\FT-03-PSI-M9_Francisco\bin\Release\net8.0\FT-03-PSI-M9_Francisco.exe
+C:\Users\psb232463\source\repos\FT-03-PSI-M9_Francisco\FT-03-PSI-M9_Francisco\bin\Release\net8.0\FT-03-PSI-M9_Francisco.deps.json
+C:\Users\psb232463\source\repos\FT-03-PSI-M9_Francisco\FT-03-PSI-M9_Francisco\bin\Release\net8.0\FT-03-PSI-M9_Francisco.runtimeconfig.json
+C:\Users\psb232463\source\repos\FT-03-PSI-M9_Francisco\FT-03-PSI-M9_Francisco\bin\Release\net8.0\FT-03-PSI-M9_Francisco.dll
+C:\Users\psb232463\source\repos\FT-03-PSI-M9_Francisco\FT-03-PSI-M9_Francisco\bin\Release\net8.0\FT-03-PSI-M9_Francisco.pdb
+C:\Users\psb232463\source\repos\FT-03-PSI-M9_Francisco\FT-03-PSI-M9_Francisco\obj\Release\net8.0\FT-03-PSI-M9_Francisco.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\psb232463\source\repos\FT-03-PSI-M9_Francisco\FT-03-PSI-M9_Francisco\obj\Release\net8.0\FT-03-PSI-M9_Francisco.AssemblyInfoInputs.cache
+C:\Users\psb232463\source\repos\FT-03-PSI-M9_Francisco\FT-03-PSI-M9_Francisco\obj\Release\net8.0\FT-03-PSI-M9_Francisco.AssemblyInfo.cs
+C:\Users\psb232463\source\repos\FT-03-PSI-M9_Francisco\FT-03-PSI-M9_Francisco\obj\Release\net8.0\FT-03-PSI-M9_Francisco.csproj.CoreCompileInputs.cache
+C:\Users\psb232463\source\repos\FT-03-PSI-M9_Francisco\FT-03-PSI-M9_Francisco\obj\Release\net8.0\FT-03-PSI-M9_Francisco.dll
+C:\Users\psb232463\source\repos\FT-03-PSI-M9_Francisco\FT-03-PSI-M9_Francisco\obj\Release\net8.0\refint\FT-03-PSI-M9_Francisco.dll
+C:\Users\psb232463\source\repos\FT-03-PSI-M9_Francisco\FT-03-PSI-M9_Francisco\obj\Release\net8.0\FT-03-PSI-M9_Francisco.pdb
+C:\Users\psb232463\source\repos\FT-03-PSI-M9_Francisco\FT-03-PSI-M9_Francisco\obj\Release\net8.0\FT-03-PSI-M9_Francisco.genruntimeconfig.cache
+C:\Users\psb232463\source\repos\FT-03-PSI-M9_Francisco\FT-03-PSI-M9_Francisco\obj\Release\net8.0\ref\FT-03-PSI-M9_Francisco.dll

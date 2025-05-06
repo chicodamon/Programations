@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Utilizador\\Documents\\Programations\\C#\\FT-03-PSI-M9_Francisco\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A953B-4231-4EF9-981E-7841BE2ABECF}|FT-03-PSI-M9_Francisco\\FT-03-PSI-M9_Francisco.csproj|c:\\users\\utilizador\\documents\\programations\\c#\\ft-03-psi-m9_francisco\\ft-03-psi-m9_francisco\\viatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A953B-4231-4EF9-981E-7841BE2ABECF}|FT-03-PSI-M9_Francisco\\FT-03-PSI-M9_Francisco.csproj|solutionrelative:ft-03-psi-m9_francisco\\viatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A953B-4231-4EF9-981E-7841BE2ABECF}|FT-03-PSI-M9_Francisco\\FT-03-PSI-M9_Francisco.csproj|c:\\users\\utilizador\\documents\\programations\\c#\\ft-03-psi-m9_francisco\\ft-03-psi-m9_francisco\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A953B-4231-4EF9-981E-7841BE2ABECF}|FT-03-PSI-M9_Francisco\\FT-03-PSI-M9_Francisco.csproj|solutionrelative:ft-03-psi-m9_francisco\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Viatura.cs",
+              "DocumentMoniker": "C:\\Users\\Utilizador\\Documents\\Programations\\C#\\FT-03-PSI-M9_Francisco\\FT-03-PSI-M9_Francisco\\Viatura.cs",
+              "RelativeDocumentMoniker": "FT-03-PSI-M9_Francisco\\Viatura.cs",
+              "ToolTip": "C:\\Users\\Utilizador\\Documents\\Programations\\C#\\FT-03-PSI-M9_Francisco\\FT-03-PSI-M9_Francisco\\Viatura.cs",
+              "RelativeToolTip": "FT-03-PSI-M9_Francisco\\Viatura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T20:02:16.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Utilizador\\Documents\\Programations\\C#\\FT-03-PSI-M9_Francisco\\FT-03-PSI-M9_Francisco\\Program.cs",
+              "RelativeDocumentMoniker": "FT-03-PSI-M9_Francisco\\Program.cs",
+              "ToolTip": "C:\\Users\\Utilizador\\Documents\\Programations\\C#\\FT-03-PSI-M9_Francisco\\FT-03-PSI-M9_Francisco\\Program.cs",
+              "RelativeToolTip": "FT-03-PSI-M9_Francisco\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T20:02:14.099Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

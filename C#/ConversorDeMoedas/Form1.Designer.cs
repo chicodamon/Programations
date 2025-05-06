@@ -76,11 +76,11 @@
             // 
             lbl_result.AutoSize = true;
             lbl_result.Font = new Font("Segoe UI", 18F);
-            lbl_result.Location = new Point(225, 152);
+            lbl_result.Location = new Point(137, 152);
             lbl_result.Name = "lbl_result";
-            lbl_result.Size = new Size(78, 32);
+            lbl_result.Size = new Size(123, 32);
             lbl_result.TabIndex = 4;
-            lbl_result.Text = "label1";
+            lbl_result.Text = "Resultado:";
             // 
             // Form1
             // 
