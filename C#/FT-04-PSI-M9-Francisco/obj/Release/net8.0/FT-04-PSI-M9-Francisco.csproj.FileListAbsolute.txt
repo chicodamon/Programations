@@ -1,0 +1,15 @@
+C:\Users\Utilizador\Documents\Programations\C#\FT-04-PSI-M9-Francisco\bin\Release\net8.0\FT-04-PSI-M9-Francisco.exe
+C:\Users\Utilizador\Documents\Programations\C#\FT-04-PSI-M9-Francisco\bin\Release\net8.0\FT-04-PSI-M9-Francisco.deps.json
+C:\Users\Utilizador\Documents\Programations\C#\FT-04-PSI-M9-Francisco\bin\Release\net8.0\FT-04-PSI-M9-Francisco.runtimeconfig.json
+C:\Users\Utilizador\Documents\Programations\C#\FT-04-PSI-M9-Francisco\bin\Release\net8.0\FT-04-PSI-M9-Francisco.dll
+C:\Users\Utilizador\Documents\Programations\C#\FT-04-PSI-M9-Francisco\bin\Release\net8.0\FT-04-PSI-M9-Francisco.pdb
+C:\Users\Utilizador\Documents\Programations\C#\FT-04-PSI-M9-Francisco\obj\Release\net8.0\FT-04-PSI-M9-Francisco.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utilizador\Documents\Programations\C#\FT-04-PSI-M9-Francisco\obj\Release\net8.0\FT-04-PSI-M9-Francisco.AssemblyInfoInputs.cache
+C:\Users\Utilizador\Documents\Programations\C#\FT-04-PSI-M9-Francisco\obj\Release\net8.0\FT-04-PSI-M9-Francisco.AssemblyInfo.cs
+C:\Users\Utilizador\Documents\Programations\C#\FT-04-PSI-M9-Francisco\obj\Release\net8.0\FT-04-PSI-M9-Francisco.csproj.CoreCompileInputs.cache
+C:\Users\Utilizador\Documents\Programations\C#\FT-04-PSI-M9-Francisco\obj\Release\net8.0\FT-04-PSI-M9-Francisco.sourcelink.json
+C:\Users\Utilizador\Documents\Programations\C#\FT-04-PSI-M9-Francisco\obj\Release\net8.0\FT-04-PSI-M9-Francisco.dll
+C:\Users\Utilizador\Documents\Programations\C#\FT-04-PSI-M9-Francisco\obj\Release\net8.0\refint\FT-04-PSI-M9-Francisco.dll
+C:\Users\Utilizador\Documents\Programations\C#\FT-04-PSI-M9-Francisco\obj\Release\net8.0\FT-04-PSI-M9-Francisco.pdb
+C:\Users\Utilizador\Documents\Programations\C#\FT-04-PSI-M9-Francisco\obj\Release\net8.0\FT-04-PSI-M9-Francisco.genruntimeconfig.cache
+C:\Users\Utilizador\Documents\Programations\C#\FT-04-PSI-M9-Francisco\obj\Release\net8.0\ref\FT-04-PSI-M9-Francisco.dll

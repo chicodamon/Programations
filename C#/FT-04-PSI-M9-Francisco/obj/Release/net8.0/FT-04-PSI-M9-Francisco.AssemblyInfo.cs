@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("FT-03-PSI-M9_Francisco")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("FT-04-PSI-M9-Francisco")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e57ffaa5aacbc70ce95d36bb993f397836749f6e")]
-[assembly: System.Reflection.AssemblyProductAttribute("FT-03-PSI-M9_Francisco")]
-[assembly: System.Reflection.AssemblyTitleAttribute("FT-03-PSI-M9_Francisco")]
+[assembly: System.Reflection.AssemblyProductAttribute("FT-04-PSI-M9-Francisco")]
+[assembly: System.Reflection.AssemblyTitleAttribute("FT-04-PSI-M9-Francisco")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
